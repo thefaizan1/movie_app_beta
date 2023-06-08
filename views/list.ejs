@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Info</title>
+</head>
+<body>
+    <form action="/" method="post">
+        <input type="text" name="movie">
+        <button type="submit">Find</button>
+    </form>
+    
+    <div class="container ">
+<img src="<%=poster%>" style="float: left; margin-right: 50px;">
+<p style="margin-top: 30px;"><b>Title:  </b><%= title%></p>
+<p><b>Year:  </b><%= year%></p>
+<p><b>Genre:  </b><%= genre%></p>
+<p><b>Director:  </b><%= director%></p>
+<p><b>Actors:  </b><%= actors%></p>
+<p style="width: 900px;"><b>Plot:  </b><%= plot%></p>
+<p><b>Language:  </b><%= lang%></p>
+<p><b>IMDB Rating:  </b><%= rating%></p>
+<p><b>Runtime:  </b><%= runtime%></p>
+<p><b>Box Office Collection:  </b><%= collection%></p>    
+
+    </div>
+</body>
+</html>
